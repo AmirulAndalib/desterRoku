@@ -1,0 +1,38 @@
+{
+  "name": "DesterLib",
+  "description": "DesterLib is a powerful and lightweight media solution to interface your movie and TV libraries in a goddamn gorgeous way.",
+  "website": "https://dester.gq/",
+  "repository": "https://github.com/DesterLib",
+  "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSsWGYbQ8wN8uf5u45ZGwEAgIPrfEFN3Q-RQ&usqp=CAU",
+  "success_url": "/",
+  "env": {
+    "MONGODB_DOMAIN": {
+      "value": "",
+      "required": true
+    },
+    "MONGODB_USERNAME": {
+      "value": "",
+      "required": true
+    },
+    "MONGODB_PASSWORD": {
+      "value": "",
+      "required": true
+    },
+    "PINGER": {
+      "description": "The pinger pings your app every 15 minutes to prevent it from sleeping. Input the URL of your app (e.g. https://APP_NAME.herokuapp.com). Leave empty if you don't want to use the pinger",
+      "value": "https://APP_NAME.herokuapp.com",
+      "required": false
+    },
+    "PINGER_INTERVAL": {
+      "description": "How often, in seconds, the pinger will be used",
+      "value": "900",
+      "required": false
+    },
+    "WEB_CONCURRENCY": {
+      "description": "Don't change this, leave the value as 1",
+      "value": "1",
+      "required": true
+    }
+  },
+  "stack": "container"
+}
