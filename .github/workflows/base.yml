@@ -52,7 +52,7 @@ jobs:
 
           context: ./
 
-          file: .
+          file: Dockerfile
 
           push: true
 
