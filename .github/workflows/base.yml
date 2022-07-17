@@ -11,7 +11,7 @@ on :
 
 env:
 
-  IMAGE: ghcr.io/amirulandalib/desterroku
+  IMAGE: ghcr.io/amirulandalib/desterlib
 
 jobs:
 
@@ -58,4 +58,4 @@ jobs:
 
           platforms: linux/arm64/v8,linux/arm/v7,linux/amd64
 
-          tags: ghcr.io/amirulandalib/desterroku:latest
+          tags: ghcr.io/amirulandalib/desterlib:latest
